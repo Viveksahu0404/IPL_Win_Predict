@@ -30,9 +30,9 @@ col3,col4,col5 = st.columns(3)
 with col3:
     score = st.number_input('Score')
 with col4:
-    overs = st.number_input('Overs completed')
+    overs = st.number_input('Overs completed', min_value=0.0, max_value=20.0, step=0.1)
 with col5:
-    wickets = st.number_input('Wickets out')
+    wickets = st.number_input('Wickets out', min_value=0, max_value=10, step=1)
 
 if st.button('Predict Probability'):
     runs_left = target - score
