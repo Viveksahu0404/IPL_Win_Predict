@@ -31,7 +31,7 @@ with col3:
     score = st.number_input('Score')
 with col4:
     overs = st.number_input('Overs completed', min_value=0.0, max_value=20.0, step=0.1)
-    overs = math.floor(overs) + 1 if overs - math.floor(overs) >= 0.6 else overs
+    
 
 with col5:
     wickets = st.number_input('Wickets out', min_value=0, max_value=10, step=1)
