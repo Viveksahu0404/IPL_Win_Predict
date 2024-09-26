@@ -27,7 +27,8 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Sharjah', 'Mohali', 'Bengaluru']
 
 pipe = pickle.load(open('pipe.pkl','rb'))
-st.title('IPL Win Predictor')
+st.markdown("<h1 style='color: black;'>IPL Win Predictor</h1>", unsafe_allow_html=True)
+
 
 col1, col2 = st.columns(2)
 
