@@ -5,7 +5,7 @@ import pandas as pd
 page_bg_img = '''
 <style>
 body {
-    background-image: url("background.jpg");
+    background-image: url("https://wallpapercave.com/wp/wp4059913.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
