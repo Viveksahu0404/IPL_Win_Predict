@@ -4,7 +4,7 @@ import pandas as pd
 
 page_bg_img = '''
 <style>
-body {
+.stApp {
     background-image: url("https://wallpapercave.com/wp/wp4059913.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@ body {
 
 # Inject CSS into Streamlit
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 teams = ['Sunrisers Hyderabad', 'Mumbai Indians', 'Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Kings XI Punjab', 'Chennai Super Kings', 'Rajasthan Royals', 'Delhi Capitals']
 
